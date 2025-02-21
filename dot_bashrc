@@ -15,6 +15,22 @@ export PATH
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
+# Set the default editor
+if command -v micro &> /dev/null; then
+    export EDITOR=micro
+    export VISUAL=micro
+    alias vim='micro'
+    alias vi='micro'
+    alias svi='sudo micro'
+    alias nano='micro'
+    alias vis='micro "+set si"'
+else
+    export EDITOR=vim
+    export VISUAL=vim
+fi
+alias spico='sudo pico'
+alias snano='sudo nano'
+
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
 	for rc in ~/.bashrc.d/*; do
