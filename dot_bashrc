@@ -25,8 +25,8 @@ if command -v micro &> /dev/null; then
     alias nano='micro'
     alias vis='micro "+set si"'
 else
-    export EDITOR=vim
-    export VISUAL=vim
+    export EDITOR=micro
+    export VISUAL=micro
 fi
 alias spico='sudo pico'
 alias snano='sudo nano'
