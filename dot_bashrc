@@ -57,3 +57,4 @@ alias lt='eza -al --sort=modified'
 alias mi='micro'
 alias lg='lazygit'
 alias mc="mc --nosubshell"
+alias ch="chezmoi"
