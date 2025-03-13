@@ -44,16 +44,16 @@ unset rc
 
 [[ -f /usr/share/bash-prexec ]] && source /usr/share/bash-prexec
 [[ "$(command -v atuin)" ]] && eval "$(atuin init bash)"
-alias ls='eza --all --long --group --group-directories-first --icons --header --time-style long-iso'
+#alias ls='eza --all --long --group --group-directories-first --icons --header --time-style long-iso'
 alias lf='eza -lF --color=always | grep -v /'
 alias lh='eza -dl .* --group-directories-first'
 #alias ll='eza -al --group-directories-first'
-#alias ls='eza -alF --color=always --sort=size | grep -v /'
+alias ls='eza -alF --color=always --sort=size | grep -v /'
 alias lt='eza -al --sort=modified'
 alias mi='micro'
 alias lg='lazygit'
-alias mc="mc --nosubshell"
-alias ch="chezmoi"
+alias mc='mc --nosubshell'
+alias ch='chezmoi'
 alias cha='chezmoi -v apply'
 alias chd='chezmoi diff'
 alias chm='chezmoi managed'
