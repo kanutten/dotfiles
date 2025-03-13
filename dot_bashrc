@@ -44,11 +44,7 @@ unset rc
 
 [[ -f /usr/share/bash-prexec ]] && source /usr/share/bash-prexec
 [[ "$(command -v atuin)" ]] && eval "$(atuin init bash)"
-### bling.sh source start
-test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
-### bling.sh source end
 #alias ls='eza --all --long --group --group-directories-first --icons --header --time-style long-iso'
-alias ld='eza -lD'
 alias lf='eza -lF --color=always | grep -v /'
 alias lh='eza -dl .* --group-directories-first'
 #alias ll='eza -al --group-directories-first'
@@ -62,3 +58,6 @@ alias cha='chezmoi -v apply'
 alias chd='chezmoi diff'
 alias chm='chezmoi managed'
 
+### bling.sh source start
+test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
+### bling.sh source end
