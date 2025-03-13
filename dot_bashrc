@@ -58,4 +58,5 @@ alias mi='micro'
 alias lg='lazygit'
 alias mc="mc --nosubshell"
 alias ch="chezmoi"
+alias cha='chezmoi -v apply'
 
