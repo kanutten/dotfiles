@@ -58,4 +58,4 @@ alias mi='micro'
 alias lg='lazygit'
 alias mc="mc --nosubshell"
 alias ch="chezmoi"
-#dette er en test
+
