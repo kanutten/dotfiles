@@ -1,2 +1,3 @@
 import "/usr/share/ublue-os/justfile"
 import "/var/home/magnar/Nextcloud/just/custom.just" 
+import "/var/home/magnar/.brew.just"
