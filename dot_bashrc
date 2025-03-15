@@ -57,9 +57,8 @@ alias ch='chezmoi'
 alias cha='chezmoi -v apply'
 alias chd='chezmoi diff'
 alias chm='chezmoi managed'
+alias che='chezmoi edit'
 
 ### bling.sh source start
 test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
 ### bling.sh source end
-eval "$(zoxide init bash)"
-eval "$(starship init bash)"
