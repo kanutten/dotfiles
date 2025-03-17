@@ -57,7 +57,7 @@ alias ch='chezmoi'
 alias cha='chezmoi -v apply'
 alias chd='chezmoi diff'
 alias chm='chezmoi managed'
-alias che='chezmoi edit --watch'
+alias che='chezmoi edit --apply'
 alias chu='chezmoi update'
 alias chae='chezmoi add --encrypt'
 
