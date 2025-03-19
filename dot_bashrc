@@ -60,6 +60,7 @@ alias chm='chezmoi managed'
 alias che='chezmoi edit --apply'
 alias chu='chezmoi update'
 alias chae='chezmoi add --encrypt'
+alias cd='z'
 
 ### bling.sh source start
 test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
