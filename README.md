@@ -1,7 +1,6 @@
 ```bash
 brew install age chezmoi micro mc lazygit
 ```
-brew install age chezmoi micro mc lazygit
 ```bash
 chezmoi --verbose init github.com/kanutten/dotfiles.git
 ```
