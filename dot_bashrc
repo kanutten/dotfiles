@@ -42,8 +42,8 @@ fi
 
 unset rc
 
-#[[ -f /usr/share/bash-prexec ]] && source /usr/share/bash-prexec
-#[[ "$(command -v atuin)" ]] && eval "$(atuin init bash)"
+[[ -f /usr/share/bash-prexec ]] && source /usr/share/bash-prexec
+[[ "$(command -v atuin)" ]] && eval "$(atuin init bash)"
 alias lk='eza --all --long --group --group-directories-first --icons --header --time-style long-iso'
 alias lf='eza -lF --color=always | grep -v /'
 alias lh='eza -dl .* --group-directories-first'
